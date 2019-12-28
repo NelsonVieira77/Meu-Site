@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+<meta charset="utf-8">
+<title> Minha Pagina </title>
+<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body onload= "load()">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+                <a class="navbar-brand" href="#">Nelson</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Projetos <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Experiençias</a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link " href="#">Inovações</a>
+                    </li>
+                  </ul>
+                  <form class="form-inline mt-2 mt-md-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                  </form>
+                </div>
+              </nav>
+            </header>
+            
+            
+                     
+                    <section id="Nelson">
+                            <div class="coutainer countainer-fluid quem-somos text-center margin padding">
+                               
+                              <h3 id="mousemove" onmouseover= "trocar(this)" onmouseout="voltar(this)"> Quem eu sou </h3>
+                               <img src="IMG-20190705-WA0069.jpg" class ="rounded-circle" width = "450" height="500" class="margin">  
+                               
+                              <h3>Sou estudante de tecnologia e inovação </h3>  
+                              
+                            </div>
+                            <footer class="countainer-fluid text-center bg-footer margin">
+                              <p>Desenvolvido por Nelson Vieira © </p>                              
+                            </footer>
+                            
+                            <script>
+                                   alert("Obrigado por acessar minha pagina")
+
+                                   function trocar(elemento){
+                                    elemento.innerHTML = "Nelson";
+                                    }
+
+                                    function voltar(elemento){
+                            elemento.innerHTML = "Quem eu sou";
+
+                                 }
+                                
+                                </script>
+
+                          
+                </body>
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
